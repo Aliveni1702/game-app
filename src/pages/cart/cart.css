@@ -1,0 +1,94 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+   
+  }
+  
+  .cartItem {
+
+    width: 600px;
+    height: 300px;
+    display: flex;
+   padding: 10%;
+    align-items: center;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+  }
+  
+  .cartItem img {
+    width: 250px;
+    margin: 2px;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+    
+  }
+  .description .prodname{
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .description button{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border: none;
+  padding:5%;
+  
+  border-radius: 5px;
+  }
+  .countHandler .negbtn{
+    padding: 5%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  .countHandler input{
+    border: none;
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  #subtotal,h1{
+    background: -webkit-linear-gradient(45deg, rgba(131,58,180,1) , rgba(253,29,29,1) , rgba(252,176,69,1) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+  }
+.empty{
+  height:90%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+  .empty h1{
+    margin-bottom: 2%;
+  }
+
+  
